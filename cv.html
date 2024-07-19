@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV </title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="profile">
+			<div class="profile_container">
+				<div class="profile_profileImg">
+					<img src="./img/k.jpg" alt="Hanan">
+					<img src="https://www.freeiconspng.com/thumbs/crescent-moon-png/black-crescent-moon-png-2.png" id="icon">
+				</div>
+			<div>
+			 <h1 class="profile_name">
+			   <span class="profile_name_fi">Hanan</span> 
+			   <span class="profile_name_la">Al-Harbi</span>
+			 </h1>
+			<p class="profile_title">Data Engineer</p>
+			<p class="description">
+				A Data Engineer gathers and analyzes data, designs, and builds systems that handle large quantities of data efficiently and securely
+			</p>
+			<a class="downloadBtn" href="./cv.pdf" download="cv.pdf">Download</a>
+		    </div>
+	    </div>
+    </div>
+    <div class="group-1">
+    	<div class="Expertise">
+    		<h3 class="title">SKILLS</h3>
+    		<ul class="Expertise_list description">
+    			<li>Python</li>
+    			<li>SQL</li>
+    			<li>Java</li>
+    			<li>HTML CSS</li>
+    			<li>PHP & Wordpress</li>
+    			<li>Teamwork & Communication Skills</li>
+    		</ul>
+    	 </div>
+    	 <div class="ref">
+    		<h3 class="title">Projects</h3>
+    		<ul class="Projects_list description">
+    			<li>Building the database using SQL with groups</li>
+    			<li>Created an application for gym with a group</li>
+    			<li>Design and develop an image search engine using the ResNet18 model</li>
+    	  </div>
+    	<div class="Edu">
+    		<h3 class="title">EDUCATION</h3>
+    		<div class="Edu_item">
+    			<p class="item_preTitle">2018-2024</p>
+    			<h4 class="item_title"> Bachelor's Degree Information Technology</h4>
+    			<p class="item_subtitle">
+    				Qassim University
+    			</p>
+    		</div>
+    	  </div>
+    	<div class="lan">
+    		<h3 class="title">LANGUAGES</h3>
+    		<ul class="lan_list description">
+    			<li> English</li>
+    			<li>عربي</li>
+    		 </ul>
+         </div>
+    <div class="interest">
+    	<h3 class="title">INTEREST</h3>
+    	<div class="interest_items">
+    		<div class="interest_item">
+              <i data-feather="music"></i>
+              <span>Music</span>
+    		 </div>
+    	  </div>
+
+     <div class="interest_item">
+       <i data-feather="map"></i>
+        <span>Travel</span>
+       </div>
+
+     <div class="interest_item">
+       <i data-feather="book"></i>
+       <span>Books</span>
+       </div>
+    </div>
+   </div>
+   <hr>
+    <div class="group-2">
+      <div class="contact">
+      	<h3 class="title"> Contact</h3>
+      	<div class="contact_info">
+      	  <p class="description">
+      	  	Al-Qassim
+      	  </p>
+      	  <p class="description">
+      	  	0533268116
+      	  </p>
+      	  <p class="description">
+      	  	hananalharbi9119@gmail.com
+      	  </p>
+      	</div>
+      </div>
+      <div class="socials">
+        <h3 class="title">Socials</h3>
+        <div class="socials_items">
+        	<a href="#" class="social_item">
+        		<i data-feather="github"></i>
+        		<span>/hanan0o</span>
+        	</a>
+        	<a href="#" class="social_item">
+        		<i data-feather="linkedin"></i>
+        		<span>/hanan-alharbi-686b04275</span>
+        	</a>
+        </div>	
+      </div>
+    </div>
+  </div>
+        <script> 
+          feather.replace() 
+        </script>
+        <script>
+        	var icon = document.getElementById("icon");
+        	icon.onclick = function() {
+        		document.body.classList.toggle("dark-theme");
+        		if(document.body.classList.contains("dark-theme")){
+        			icon.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnPwfvXRGYAkwGL2bfEc8W2kJY-tUiulLzEnUd27IHaXH6N17eaXYgkIFl5e9JqtnJ--Q&usqp=CAU";
+        		}else{
+        			icon.src = "https://www.freeiconspng.com/thumbs/crescent-moon-png/black-crescent-moon-png-2.png";
+        		}
+        	}
+        </script>
+</body>
+</html>
